@@ -31,8 +31,8 @@ function Inputbox() {
 		<>
 			<div className="search-div flex-center">
 				<div className="search-box">
-					<input type="text" onChange={(e) => { setInput({ longUrl: e.target.value }) }} name="search" value={input.longUrl} />
-					<button className="search-btn" onClick={clickHandler}>Search</button>
+					<input type="text" onChange={(e) => { setInput({ longUrl: e.target.value }) }} name="search" value={input.longUrl} spellcheck="false"/>
+					<button className="search-btn" onClick={clickHandler}>Short</button>
 				</div>
 			</div>
 			<OutputField outputData={output} />
