@@ -1,6 +1,6 @@
 # shorturl-frontend
 
-Front end for short url(A dotnet core based url shortening service).
+React Front end for [short url](https://github.com/amit-barman/shorturl-backend) (A dotnet core based url shortening service).
 
 ## Demo
 
