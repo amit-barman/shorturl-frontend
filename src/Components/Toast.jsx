@@ -23,7 +23,7 @@ function Toast() {
         status ?
             <>
                 <div className="toast">
-                    <i class='fa-solid fa-circle-xmark'></i>
+                    <i className='fa-solid fa-circle-xmark'></i>
                     <p>Invalid URL!</p>
                 </div>
             </>

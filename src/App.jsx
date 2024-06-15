@@ -5,7 +5,7 @@ import Inputbox from "./Components/Inputbox";
 function App() {
     return (
         <>
-            <section class="main-home">
+            <section className="main-home">
                 <Heading />
                 <Inputbox />
             </section>
